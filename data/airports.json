@@ -1,0 +1,92 @@
+[
+  {
+    "code": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "region": "North",
+    "lat": 28.5562,
+    "lng": 77.1000
+  },
+  {
+    "code": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "region": "West",
+    "lat": 19.0896,
+    "lng": 72.8656
+  },
+  {
+    "code": "BLR",
+    "name": "Kempegowda International Airport",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "region": "South",
+    "lat": 13.1986,
+    "lng": 77.7066
+  },
+  {
+    "code": "CCU",
+    "name": "Netaji Subhash Chandra Bose International Airport",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "region": "East",
+    "lat": 22.6547,
+    "lng": 88.4467
+  },
+  {
+    "code": "HYD",
+    "name": "Rajiv Gandhi International Airport",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "region": "South",
+    "lat": 17.2403,
+    "lng": 78.4294
+  },
+  {
+    "code": "MAA",
+    "name": "Chennai International Airport",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "region": "South",
+    "lat": 12.9941,
+    "lng": 80.1709
+  },
+  {
+    "code": "GOI",
+    "name": "Dabolim / Manohar International Airport",
+    "city": "Goa",
+    "state": "Goa",
+    "region": "West",
+    "lat": 15.3808,
+    "lng": 73.8314
+  },
+  {
+    "code": "AMD",
+    "name": "Sardar Vallabhbhai Patel International Airport",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "region": "West",
+    "lat": 23.0772,
+    "lng": 72.6347
+  },
+  {
+    "code": "PNQ",
+    "name": "Pune Airport",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "region": "West",
+    "lat": 18.5822,
+    "lng": 73.9197
+  },
+  {
+    "code": "JAI",
+    "name": "Jaipur International Airport",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "region": "North",
+    "lat": 26.8242,
+    "lng": 75.8122
+  }
+]

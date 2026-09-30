@@ -1,0 +1,24 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy source code and initial seed data
+COPY . .
+
+# Ensure data directories exist
+RUN mkdir -p /app/data/raw_snapshots
+
+EXPOSE 8000
+
+# Pre-seed on boot if needed, then launch FastAPI with uvicorn
+CMD ["sh", "-c", "python -m api.seed && uvicorn api.main:app --host 0.0.0.0 --port 8000"]
